@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CSS -->
+    <!-- Typekit -->
     <link rel="stylesheet" href="https://use.typekit.net/bpz6qrd.css">
+    <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- External CSS -->
     <link rel="stylesheet" href="css/styles.css">
     <title>Merielle's Empanada</title>
 </head>
@@ -14,7 +16,7 @@
     <!-- Navbar Start -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
-            <div class="container-fluid w-auto d-inline-block">
+            <div class="container-fluid w-auto">
                 <a class="navbar-brand" href="index.html">
                   <img src="images\logos\merielles-logo-outline-cream.png" alt="merielles-logo-cream" width="200px" height="200px">
                 </a>
@@ -22,9 +24,9 @@
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                   <a class="nav-link active px-5" aria-current="index.html" href="index.html">Home</a>
-                  <a class="nav-link px-5" href="#">Menu</a>
-                  <a class="nav-link px-5" href="#">About</a>
-                  <a class="nav-link px-5" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+                  <a class="nav-link px-4" href="#">Menu</a>
+                  <a class="nav-link px-4" href="#">About</a>
+                  <a class="nav-link px-4" href="#" tabindex="-1" aria-disabled="true">Contact</a>
                 </div>
               </div>
             </div>
@@ -35,42 +37,27 @@
         <!-- Hero -->
         <section class="hero-1">
             <div class="container-fluid vh-100 vw-100 px-0 py-0 overflow-hidden">
-                <div class="row col-lg-6 d-inline-block" id="headline">
+                <div class="row col-lg-5 d-inline-block" id="headline">
                     <h1>Crunchy. Savory.<br />So much goodness!</h1>
-                    <p>Merielle's Empanada is a snack perfect for all occasions.<br />Our homemade empanadas are made to order to ensure<br />that our empanadas are crunchy and savory inside and out.</p>
+                    <p class="word-wrap">Merielle's Empanada is a snack perfect for all occasions. Our homemade empanadas are made to order to ensure our empanadas are crunchy and savory inside and out.</p>
+                    <a class="btn btn-primary" href="#" role="button" id="orderNow">Order Now</a>
                 </div>
-                <div class="row col-lg-6 d-inline-block empanada-hero">
+                <div class="row col-lg-7 d-inline-block empanadaHero image-fluid">
                     <img src="images\empanada-hero-shadow.png" alt="empanada-hero-shot"/>
                 </div>
             </div>
         </section>
         <!-- Hero End -->
         <!-- Products -->
-        <!-- <section>
-            <h1>Part 2</h1>
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" style="background-color: blue;">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <section>
+            <div class="container-fluid vh-100 vw-100" id="menu">
+                <div class="text-center m-5 p-5">
+                    <h1 class="productsHeadline">Our Products</h1>
+                    <p class="word-wrap" id="productsSubhead">Merielle's Empanada talks about their traditional flavors<br />using good ingredients to bring out the best flavor at the<br />same time affordable something, lol.</p>
+                    <a class="btn btn-primary" href="#" role="button" id="learnMore">Learn More</a>
                 </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="images\empanada-hero.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="images\empanada-hero.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
-        </section> -->
+            </div>
+        </section>
         <!-- Products End -->
     </main>
     <!-- Bootstrap JS Bundle -->

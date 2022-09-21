@@ -4,15 +4,14 @@
 
 /* Header */
 header{
-   background-color: rgba(0, 0, 0, 0) !important;
+   background-color: rgba(254, 75, 75, 100) !important;
 }
 
 /* Header: Navbar */
 
 .navbar{
-    padding: 0;
-    font-family: Proxima Nova, sans-serif !important;
-    font-weight: 800 !important;
+    font-family: Proxima Nova, sans-serif;
+    font-weight: 800;
     font-size: 36px;
     letter-spacing: 2px;
     padding: 3rem;
@@ -21,7 +20,10 @@ header{
 /* Hero */
 
 body{
+    background-color: #FCF9F5;
     font-family: Proxima Nova, sans-serif;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .hero-1{
@@ -31,26 +33,81 @@ body{
 
 #headline{
     color: #FCF9F5;
-    margin-top: 470px;
+    margin-top: 400px;
     margin-left: 110px;
 }
 
 h1{
     font-weight: 800;
-    font-size: 75px;
-    line-height: 75px;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 1px;
 }
 
 p{
     font-weight: 500;
-    font-size: 26px;
+    font-size: 28px;
     line-height: 32px;
-    padding-top: 10px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
 }
 
-.empanada-hero{
-    height: 100%;
-    width: 100%;
-    margin-top: -650px;
-    margin-left: 550px;
+#orderNow{
+    background-color: #FCEB53;
+    width: 320px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 42px;
+    color: #262626;
+    margin-left: 13px;
 }
+
+.empanadaHero{
+    height: 140%;
+    width: 100%;
+    margin-top: -740px;
+    margin-left: 610px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+/* Products */
+
+#menu{
+    background-color: #FCF9F5;
+}
+
+.productsHeadline{
+    font-weight: 800;
+    font-size: 80px;
+    color: #FE4B4B;
+    line-height: 80px;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+
+#productsSubhead{
+    font-weight: 500;
+    font-size: 28px;
+    color: #FE4B4B;
+    line-height: 32px;
+    padding-top: 15px;
+    padding-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+#learnMore{
+    background-color: #FCEB53;
+    width: 280px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 36px;
+    color: #262626;
+    margin-left: 13px;
+}
+
+/* Media Queries */
+
