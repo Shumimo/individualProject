@@ -17,6 +17,11 @@ header{
     padding: 3rem;
 }
 
+#logo{
+    width: 200px;
+    height: 200px;
+}
+
 /* Hero */
 
 body{
@@ -28,7 +33,7 @@ body{
 
 .hero-1{
     background-color: #FE4B4B;
-    margin-top: -16.5%;
+    margin-top: -15%;
 }
 
 #headline{
@@ -69,7 +74,7 @@ p{
     width: 100%;
     margin-top: -740px;
     margin-left: 610px;
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -111,3 +116,66 @@ p{
 
 /* Media Queries */
 
+/* For Desktop */
+@media only screen and (max-width: 1440px) {
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+/* Navbar */
+.navbar{
+    padding: 4rem;
+}
+
+.navbar-nav{
+    font-size: 25px;
+}
+
+#logo{
+    width: 150px;
+    height: 150px;
+}
+
+/* Hero */
+.hero-1{
+    height: 100vh;
+    margin-top: -12%;
+}
+
+#headline{
+    margin-top: 220px;
+    margin-left: 100px;
+}
+
+h1{
+    font-size: 50px;
+    line-height: 55px;
+    letter-spacing: 2px;
+}
+
+p{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.empanadaHero{
+    height: 100%;
+    width: 110%;
+    margin-top: -580px;
+    margin-left: 400px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#orderNow{
+    width: 220px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 30px;
+    color: #262626;
+    margin-left: 13px;
+}
+}
