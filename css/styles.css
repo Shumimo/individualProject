@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+html{
+    font-size: 62.5%;
+}
+
 /* Header */
 header{
    background-color: rgba(254, 75, 75, 100) !important;
@@ -12,14 +16,14 @@ header{
 .navbar{
     font-family: Proxima Nova, sans-serif;
     font-weight: 800;
-    font-size: 36px;
-    letter-spacing: 2px;
-    padding: 3rem;
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    padding: 4rem;
 }
 
 #logo{
-    width: 200px;
-    height: 200px;
+    width: 15rem;
+    height: 15rem;
 }
 
 /* Hero */
@@ -33,13 +37,10 @@ body{
 
 .hero-1{
     background-color: #FE4B4B;
-    margin-top: -15%;
 }
 
 #headline{
     color: #FCF9F5;
-    margin-top: 400px;
-    margin-left: 110px;
 }
 
 h1{
@@ -53,8 +54,6 @@ p{
     font-weight: 500;
     font-size: 28px;
     line-height: 32px;
-    padding-top: 15px;
-    padding-bottom: 40px;
     letter-spacing: 1px;
 }
 
@@ -66,17 +65,15 @@ p{
     font-weight: 800;
     font-size: 42px;
     color: #262626;
-    margin-left: 13px;
 }
 
-.empanadaHero{
-    height: 140%;
-    width: 100%;
-    margin-top: -740px;
-    margin-left: 610px;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
+/* #empanadaHero{
+    margin-top: -30rem;
+    height: 50%;
+    width: 50%;
+    filter: drop-shadow(2rem 3rem 3rem rgb(163, 5, 37));
+} */
+
 
 /* Products */
 
@@ -116,66 +113,98 @@ p{
 
 /* Media Queries */
 
-/* For Desktop */
-@media only screen and (max-width: 1440px) {
+/* Offcanvas Menu */
+@media (min-width: 961px) {
+    .offcanvas {
+      visibility: visible;
+      position: relative;
+      background: none;
+      border: none;
+      justify-content: end;
+      color: red;
+    }
 
-body{
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
+  }
 
-/* Navbar */
-.navbar{
-    padding: 4rem;
-}
+  @media (max-width: 961px) {
+    .container{
+        padding: 0;
+        margin: 0;
+    }
 
-.navbar-nav{
-    font-size: 25px;
-}
+    .offcanvas{
+        background-color: #FE4B4B !important;
+        width: 50%;
+        font-size: 2rem;
+    }
 
-#logo{
-    width: 150px;
-    height: 150px;
-}
+    .offcanvas-start-lg{
+        top: 0;
+        left: 0px;
+        transform: translateX(-100%);
+    }
 
-/* Hero */
-.hero-1{
-    height: 100vh;
-    margin-top: -12%;
-}
+    #offcanvaslogo{
+        height: 10rem;
+        width: 10rem;
+        padding: auto;
+    }
 
-#headline{
-    margin-top: 220px;
-    margin-left: 100px;
-}
+    .navbar{
+        padding-bottom: 2rem;
+    }
 
-h1{
-    font-size: 50px;
-    line-height: 55px;
-    letter-spacing: 2px;
-}
+    #logotext{
+        height: 3rem;
+        width: auto;
+    }
 
-p{
-    font-size: 25px;
-    line-height: 30px;
-}
+    #headline{
+        margin-left: 3rem;
+        margin-right: 3rem;
+    }
 
-.empanadaHero{
-    height: 100%;
-    width: 110%;
-    margin-top: -580px;
-    margin-left: 400px;
-    overflow-y: hidden;
-    overflow-x: hidden;
-}
+    #empanadaHero{
+        margin-top: -1.5rem;
+        margin-bottom: 1rem;
+        margin-left: -7rem;
+        height: auto;
+        width: 180%;
+        filter: drop-shadow(10rem 7rem 5rem rgb(163, 5, 37));
+    }
 
-#orderNow{
-    width: 220px;
-    border: none;
-    border-radius: 20px;
-    font-weight: 800;
-    font-size: 30px;
-    color: #262626;
-    margin-left: 13px;
-}
-}
+    h1{
+        font-weight: 800;
+        font-size: 3rem;
+        line-height: 3.2rem;
+        letter-spacing: 0.1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    p{
+        font-weight: 500;
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        letter-spacing: .1rem;
+        margin-bottom: 3rem;
+    }
+
+    #orderNow{
+        width: 18rem;
+        border: none;
+        border-radius: 15px;
+        font-weight: 800;
+        font-size: 2.5rem;
+    }
+
+    #carouselBtn{
+        margin-top: -10rem;
+    }
+
+    .hero-2{
+        background-color: #FCEB53;
+    }
+  }
+  .navbar-nav li a{
+    color: white !important;
+  }
