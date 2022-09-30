@@ -170,6 +170,7 @@ p{
         margin-left: -7rem;
         height: auto;
         width: 180%;
+        -webkit-filter: drop-shadow( 10px 7px 10px rgba(163, 5, 37, 0.295)); 
         filter: drop-shadow(10rem 7rem 5rem rgb(163, 5, 37));
     }
 
