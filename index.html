@@ -1,130 +1,144 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Typekit -->
-    <link rel="stylesheet" href="https://use.typekit.net/bpz6qrd.css">
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <!-- External CSS -->
-    <link rel="stylesheet" href="css/styles.css">
-    <title>Merielle's Empanada</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Typekit -->
+  <link rel="stylesheet" href="https://use.typekit.net/bpz6qrd.css">
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- External CSS -->
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Merielle's Empanada</title>
 </head>
+
 <body>
-    <!-- Navbar Start -->
-    <header>
-      <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
-        <div class="container">
-          <a class="navbar-brand" href="index.html">
-            <img src="images\logos\merielles-logo-outline-cream.png" alt="merielles-logo-cream" class="d-none d-md-none d-lg-block" id="logo"/>
-          </a>
-          <a class="navbar-brand" href="index.html">
-            <img src="images\logos\merielles-logo-text-cream.png" alt="merielles-logo-cream" class="d-lg-none d-md-block d-sm-block" id="logotext"/>
-          </a>
-            <button class="btn navbar-toggler border-2 py-2 ms-auto" type="button" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="offcanvas offcanvas-start-lg" tabindex="-1" id="offcanvasExample"
-                aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header d-flex d-lg-none mx-auto py-5">
-              <img src="images\logos\merielles-logo-outline-cream.png" alt="merielles-logo-cream" id="offcanvaslogo"/>
-              </a>
-            </div>
-            <div class="offcanvas-body p-lg-0">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link active px-4 my-auto" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active px-4 my-auto" aria-current="page" href="#">Menu</a>
-                </li>
-                  <li class="nav-item">
-                  <a class="nav-link active px-4 my-auto" aria-current="page" href="#">About</a>
-                </li>
-                  <li class="nav-item">
-                  <a class="nav-link active px-4 my-auto" aria-current="page" href="#">Contact Us</a>
-                </li>
-                </ul>
-            </div>
-            </div>
+  <!-- Navbar Start -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+      <div class="container">
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logos/merielles-logo-outline-cream.png" alt="merielles-logo-cream"
+            class="d-none d-md-none d-lg-block" id="logo" />
+        </a>
+        <a class="navbar-brand" href="index.html">
+          <img src="images/logos/merielles-logo-text-cream.png" alt="merielles-logo-cream"
+            class="d-lg-none d-md-block d-sm-block" id="logotext" />
+        </a>
+        <button class="btn navbar-toggler border-2 py-2 ms-auto" type="button" data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-start-lg" tabindex="-1" id="offcanvasExample"
+          aria-labelledby="offcanvasExampleLabel">
+          <div class="offcanvas-header d-flex d-lg-none mx-auto py-5">
+            <img src="images/logos/merielles-logo-outline-cream.png" alt="merielles-logo-cream" id="offcanvaslogo" />
+          </div>
+          <div class="offcanvas-body p-lg-0">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active px-4 my-auto" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active px-4 my-auto" aria-current="page" href="#">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active px-4 my-auto" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active px-4 my-auto" aria-current="page" href="#">Contact Us</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </nav>
-    </header>
-    <!-- Navbar End -->
-    <main>
-        <!-- Hero -->
-        <section class="hero-1">
-          <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-            <!-- Hero 1 -->
-              <div class="carousel-item active overflow-hidden">
-                  <div class="container-fluid vh-100">
-                    <div class="row col-xl-5 col-sm" id="headline">
-                      <div>  
-                        <h1 class="hero1Headline">Crunchy. Savory.<br />So much goodness!</h1>
-                          <p class="word-wrap">Merielle's Empanada is a snack perfect for all occasions. Our homemade empanadas are made to order to ensure our empanadas are crunchy and savory inside and out.</p>
-                          <a class="btn btn-primary" href="#" role="button" id="orderNow">Order Now</a>
-                      </div>
-                  </div>
-                  <div class="row col-xl-7 col-sm">
-                    <div>
-                        <img src="images\empanada-hero.png" alt="empanada-image" id="empanadaHero"/>
-                    </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar End -->
+  <main>
+    <!-- Hero -->
+    <section class="hero-1">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Hero 1 -->
+          <div class="carousel-item active overflow-hidden">
+            <div class="container-fluid vh-100">
+              <div class="row col-xl-5 col-sm" id="headline">
+                <div>
+                  <h1 class="hero1Headline">Crunchy. Savory.<br />So much goodness!</h1>
+                  <p class="word-wrap hero1Copy">Merielle's Empanada is a snack perfect for all occasions. Our homemade empanadas
+                    are made to order to ensure our empanadas are crunchy and savory inside and out.</p>
+                  <a class="btn btn-warning" href="index.html" role="button" id="orderNow">Order Now</a>
+                </div>
+              </div>
+              <div class="row col-xl-7 col-sm">
+                <div>
+                  <img src="images/empanada-hero.png" alt="empanada-image" id="empanadaHero" />
+                </div>
               </div>
             </div>
           </div>
-            <!-- Hero 2 -->
-            <div class="carousel-item hero-2 overflow-hidden">
-              <div class="container-fluid overflow-hidden vh-100">
-                <div class="row col-xl col-sm">
-                  <div class="position-absolute headline2">  
-                    <h1 class="hero2Headline">Mix and match it!<br />Have it your way!</h1>
-                      <p class="word-wrap hero2Copy">Happiness comes in bite sized empanadas!
-                          <br />Customize your Merielle's Empanada box<br />
-                          to match the perfection occasion.</p>
-                      <a class="btn btn-primary customize-button" href="#" role="button">Customize</a>
-                  </div>
+          <!-- Hero 2 -->
+          <div class="carousel-item hero-2 overflow-hidden">
+            <div class="container-fluid overflow-hidden vh-100">
+              <div class="row col-xl col-sm">
+                <div class="position-relative text-center headline2">
+                  <h1 class="hero2Headline">Mix and match it!<br />Have it your way!</h1>
+                  <p class="word-wrap hero2Copy">Happiness comes in bite sized empanadas!
+                    <br />Customize your Merielle's Empanada box<br />
+                    to match the perfection occasion.
+                  </p>
+                  <a class="btn btn-primary" href="https://www.facebook.com/" role="button" id="customizeButton">Customize</a>
                 </div>
-                <div class="row col-xl col-sm position-relative">
+              </div>
+              <div class="row col-xl col-sm position-relative">
+                <div>
+                  <img src="images/empanada-patterns.png" alt="empanada"
+                    class="empanadaPatterns d-lg-none d-mb-block d-block" />
+                    <img src="images/empanada-circles.png" alt="empanada"
+                    class="empanadaCircles d-lg-block d-md-none d-none" />
+                </div>
+                <div class="row col-xl col-sm position-absolute">
                   <div>
-                    <img src="images\empanada-patterns.png" alt="empanada" class="empanadaPatterns d-lg-none position-absolute"/>
-                  </div>
-                  <div class="row col-xl col-sm position-relative">
-                    <div>
-                      <img src="images\empanada-patterns.png" alt="empanada" class="empanadaPatterns2 d-lg-none d-md-block d-block position-absolute"/>
-                      <img src="images\empanada-circles.png" alt="empanada" class="empanadaCircles2 d-lg-block d-md-none d-none position-absolute"/>
-                    </div>
+                    <img src="images/empanada-patterns.png" alt="empanada"
+                      class="empanadaPatterns2 d-lg-none d-md-block d-block" />
                   </div>
                 </div>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>          
-        </section>
-        <!-- Hero End -->
-        <!-- Products -->
-        <section>
-            <div class="container-fluid overflow-hidden vh-100" id="menu">
-                <div class="text-center m-5 p-5">
-                    <h1 class="productsHeadline">Our Products</h1>
-                    <p class="word-wrap" id="productsSubhead">Merielle's Empanada talks about their traditional flavors<br />using good ingredients to bring out the best flavor at the<br />same time affordable something, lol.</p>
-                    <a class="btn btn-primary" href="#" role="button" id="learnMore">Learn More</a>
-                </div>
-            </div>
-        </section>
-        <!-- Products End -->
-    </main>
-    <!-- Bootstrap JS Bundle -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Hero End -->
+    <!-- Products -->
+    <section>
+      <div class="container-fluid overflow-hidden vh-100" id="menu">
+        <div class="text-center m-5 p-5">
+          <h1 class="productsHeadline">Our Products</h1>
+          <p class="word-wrap" id="productsSubhead">Merielle's Empanada talks about their traditional flavors<br />using good ingredients to bring out the best flavor at the<br />same time affordable something, lol.</p>
+          <a class="btn btn-primary" href="#" role="button" id="learnMore">Learn More</a>
+        </div>
+      </div>
+    </section>
+    <!-- Products End -->
+  </main>
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
 </body>
 </html>

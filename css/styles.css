@@ -67,6 +67,17 @@ p{
     color: #262626;
 }
 
+#customizeButton{
+    background-color: #FE4B4B;
+    width: 320px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 800;
+    font-size: 42px;
+    color: #FCF9F5;
+}
+
+
 #empanadaHero{
     filter: drop-shadow(10rem 7rem 5rem rgb(163, 5, 37));
 }
@@ -75,7 +86,7 @@ p{
     background-color: #FCEB53;
 }
 
-.empanadaPatterns, .empanadaPatterns2{
+.empanadaPatterns, .empanadaPatterns2, .empanadaCircles{
     filter: drop-shadow(-1.5rem 0.2rem 1rem rgba(139, 69, 3, 0.171));
 }
 
@@ -124,14 +135,17 @@ p{
 
     #headline{
         margin-left: 15rem;
-        transform: translateX(-5%) translateY(30%);
+        transform: translateX(-5%) translateY(20%);
     }
 
     .hero1Headline{
         font-weight: 800;
         font-size: 6rem;
         line-height: 6rem;
-        padding-bottom: 5%;
+    }
+
+    .hero1Copy{
+        padding-top: 4rem;
     }
 
     #orderNow{
@@ -141,31 +155,52 @@ p{
         font-weight: 800;
         font-size: 4rem;
         letter-spacing: -0.1rem;
-        margin-top: 4.5rem;
-        
+        margin-top: 5rem;   
     }
 
     #empanadaHero{
         height: auto;
         width: 205%;
-        transform: translateX(25%) translateY(-40%);
-    }
-
-    .carousel-control-next, .carousel-control-prev{
-        transform: translateY(-5%);
+        transform: translateX(21%) translateY(-40%);
     }
 
     .headline2{
-        transform: translateX(30%) translateY(115%);
+        transform: translateY(90%);
+        color: #FE4B4B;
+        display: block;
+        /* text-align: center; */
     }
 
-    .empanadaCircles2{
-        margin-top: -1rem;
-        margin-left: -10rem;
+    .hero2Headline{
+        font-weight: 800;
+        font-size: 6rem;
+        color: #FE4B4B;
+        line-height: 6rem;
+        letter-spacing: -0rem;
+    }
+
+    .hero2Copy{
+        font-weight: 500;
+        font-size: 2.5rem;
+        color: #FE4B4B;
+        line-height: 2.5rem;
+        letter-spacing: -0rem;
+        margin-top: 2rem;
+    }
+
+    #customizeButton{
+        width: 28rem;
+        border: none;
+        border-radius: 15px;
+        font-weight: 800;
+        font-size: 4rem;
+        margin-top: 2.5rem;
+    }
+    
+    .empanadaCircles{
         height: auto;
         width: 100%;
-        position: relative;
-        transform: translateX(6%) translateY(-12%);
+        transform: translateX(1%) translateY(-39%);
     }
   }
 
@@ -292,7 +327,7 @@ p{
         letter-spacing: -0rem;
     }
 
-    .customize-button{
+    #customizeButton{
         background-color: #FE4B4B;
         width: 18rem;
         border: none;
@@ -307,8 +342,7 @@ p{
         margin-left: -10rem;
         height: auto;
         width: 205%;
-        position: relative;
-        transform: translateX(4%) translateY(205%);
+        transform: translateX(4%) translateY(125%);
     }
 
     .empanadaPatterns2{
@@ -316,8 +350,7 @@ p{
         margin-left: -10rem;
         height: auto;
         width: 205%;
-        position: relative;
-        transform: translateX(-13%) translateY(-30%);
+        transform: translateX(-10%) translateY(-125%);
     }
     
   }
